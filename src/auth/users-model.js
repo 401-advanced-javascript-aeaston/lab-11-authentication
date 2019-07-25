@@ -1,6 +1,7 @@
 'use strict';
 
 const mongoose = require('mongoose');
+const jwt = 
 
 const users = new mongoose.Schema({
   username: {type: String, required: true, unique: true},
